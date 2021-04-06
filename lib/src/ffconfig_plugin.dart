@@ -1,8 +1,9 @@
 import 'dart:async';
 
-import 'package:ffmpeg_flutter/src/log_level.dart';
-import 'package:ffmpeg_flutter/src/signal.dart';
 import 'package:flutter/services.dart';
+
+import 'log_level.dart';
+import 'signal.dart';
 
 final ffconfig = FFConfigPlugin._();
 
